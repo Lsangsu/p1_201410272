@@ -7,8 +7,6 @@ def sumOfMultipleOf3_5(begin,end):
             sum-=i          
     return sum
     
-sumOfMultipleOf3_5(1,1000)
-
 def lab6():
     sumOfMultipleOf3_5(1,1000)
 
