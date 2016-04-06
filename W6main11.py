@@ -5,8 +5,6 @@ def FindLeapYear(year):
         res="Normal Year"
     return res
 
-FindLeapYear(2016)
-
 def lab6():
     FindLeapYear(2016)
 
