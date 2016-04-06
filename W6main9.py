@@ -8,3 +8,12 @@ def sumOfMultipleOf3_5(begin,end):
     return sum
     
 sumOfMultipleOf3_5(1,1000)
+
+def lab6():
+    sumOfMultipleOf3_5(1,1000)
+
+def main():
+    lab6()
+
+if __name__=="__main__":
+    main()
