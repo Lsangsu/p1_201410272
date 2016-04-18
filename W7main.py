@@ -5,7 +5,7 @@ t1=turtle.Turtle()
 def drawSquareAtSave(size,pos):
     tracks=list()
     t1.penup()
-    t1.setpos(pos,0)
+    t1.setpos(pos)
     t1.pendown()
     for i in range(0,4):
         t1.fd(100)
@@ -14,7 +14,7 @@ def drawSquareAtSave(size,pos):
     print tracks
 
 def lab7():
-    drawSquareAtSave(100,100)
+    drawSquareAtSave(100,(100,100))
 
 def main():
     lab7()
