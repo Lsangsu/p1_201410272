@@ -2,7 +2,7 @@
 wn=turtle.Screen()
 t1=turtle.Turtle()
 
-def drawSquareAtSace(size,pos):
+def drawSquareAtSave(size,pos):
     tracks=list()
     t1.penup()
     t1.setpos(pos,0)
@@ -14,7 +14,7 @@ def drawSquareAtSace(size,pos):
     print tracks
 
 def lab7():
-    drawSquareAtSace(100,100)
+    drawSquareAtSave(100,100)
 
 def main():
     lab7()
