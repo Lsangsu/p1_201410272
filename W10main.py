@@ -8,11 +8,11 @@
     print d
     print min(d)
 
-def lab9():
+def lab10():
     distance()
 
 def main():
-    lab9()
+    lab10()
     
 
 if __name__=="__main__":
