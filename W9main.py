@@ -27,12 +27,12 @@ def countDigitsLetters():
     plt.show()
     
 
-def lab8():
+def lab9():
     charCount()
     countDigitsLetters()
 
 def main():
-    lab8()
+    lab9()
     
 
 if __name__=="__main__":
