@@ -50,9 +50,26 @@ def popSumG():
     plt.bar(range(len(popSum)), popSum,align='center')
     plt.show()
     
+def Milk():
+    allData=[
+        ["Coffee","Water","Milk","Icecream"],
+        ["Espresso","No","No","No"],
+        ["Long Black","Yes","No","No"],
+        ["Flat White","No","Yes","No"],
+        ["Cappuccino","No","Yes - Frothy","No"],
+        ["Affogato","No","No","Yes"]
+    ]
+    data=allData[1:]
+    milk=0
+    for i in data:
+        if 'Yes' in i[2]:
+            milk+=1
+    print float(milk)/float(len(data)), '%'
+    
 def lab10():
     distance()
     popSumG()
+    Milk()
 
 def main():
     lab10()
