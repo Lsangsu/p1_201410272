@@ -66,10 +66,27 @@ def Milk():
             milk+=1
     print float(milk)/float(len(data)), '%'
     
+def ScoreAverage():
+    Score=[["English", 100], ["Math", 200], ["English", 200], ["Math", 200], ["English", 100], ["Math", 300]]
+    EnglishSum=0
+    E=0
+    MathSum=0
+    M=0
+    for i in Score:
+        if i[0]=="English":
+            EnglishSum+=i[1]
+            E+=1
+        else:
+            MathSum+=i[1]
+            M+=1
+    print 'English Sum :', EnglishSum, 'English Average :', EnglishSum/E
+    print 'Math Sum :', MathSum, 'Math Average :', MathSum/E
+    
 def lab10():
     distance()
     popSumG()
     Milk()
+    ScoreAverage()
 
 def main():
     lab10()
