@@ -32,8 +32,6 @@ def addKeys():
 def addMouse():
      wn.onclick(Mousegoto)
 
-wn.listen()
-
 def Mymaze():
 	addKeys()
 	addMouse()
